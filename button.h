@@ -9,6 +9,9 @@ public:
 
 	void callback();
 
+	const int get_pin() const
+	{ return pin; }
+
 private:
 	virtual void onButton(int state);
 
